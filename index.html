@@ -58,6 +58,23 @@ img, video, svg { max-width: 100%; }
 /* Sections whose backgrounds may be full-bleed keep their backgrounds,
    while the actual content stays aligned to the same side gutters. */
 
+
+/* Contrast fix: secondary CTA inside the dark process section */
+.process .btn.secondary {
+  background: #f5f2ec;
+  color: #242420;
+  border-color: #f5f2ec;
+}
+.process .btn.secondary:hover,
+.process .btn.secondary:focus-visible {
+  background: #d9cfbf;
+  border-color: #d9cfbf;
+  color: #242420;
+}
+.process .btn.secondary span {
+  color: inherit;
+}
+
 </style>
 </head>
 <body>
